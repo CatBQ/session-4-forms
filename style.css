@@ -1,12 +1,35 @@
+/* nav bar style */ 
+nav{
+  background-color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* body style */ 
 body {
-    background-color: white;
+    background-color: #F0F8FF;
   }
   h1 {
-    color: black;
+    color: #BDB76B;
   }
   p {
-    color: purple;
-    font-size: 30px;
-    font-style: italic;
+    color: #000000;
+    font-size: 15px;
+    font-style: sans-serif;
   }
  
+/* table borders */ 
+table, th, td {
+  border: 1px solid;
+  padding: 3px 5px;
+  border-collapse: collapse;
+}
+
+
+  /* link button */ 
+  a:link{
+    background-color: #D2691E;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+  }
